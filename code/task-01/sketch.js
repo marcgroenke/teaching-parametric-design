@@ -1,6 +1,8 @@
 function setup() {
   createCanvas(400, 400);
 }
+//Mein erster Versuch
+//LG 
 
 function draw() {
   background("#3275a8");

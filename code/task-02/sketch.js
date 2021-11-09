@@ -1,24 +1,45 @@
-let colorValue;
-let xValue;
-
-let yValue = 5;
-let textColor = "green";
-let trueFalse = true; // false
-
 function setup() {
   createCanvas(400, 400);
-  frameRate (5);
-  colorValue = random(0, 255);
-  xValue = 0;
 }
 
+// RECT-DIY
+
 function draw() {
-  background(255);
-  fill(xValue)
+  background("#04B4AE");
+  stroke("#00FFFF")
+  fill("#0B3B39");
+  rect(175, 175, 50, 50);
+  rect(190, 195, 55, 55);
+  rect(205, 210, 60, 60);
+  rect(220, 225, 65, 65);
+  rect(235, 250, 70, 70);
+  rect(235, 275, 75, 75);
+  rect(220, 290, 85, 85);
+  rect(195, 310, 95, 95);
+  rect(180, 330, 95, 95);
+  rect(160, 345, 95, 95);
+  rect(120, 355, 95, 95);
+  rect(80, 345, 95, 95);
+  rect(55, 330, 95, 95);
+  rect(35, 310, 95, 95);
+  rect(15, 280, 100, 100);
+  rect(0, 245, 100, 100);
+  rect(-20, 215, 100, 100);
+  rect(-50, 185, 110, 110);
+  rect(-50, 185, 110, 110);
+  rect(-45, 145, 110, 110);
+  rect(-30, 110, 115, 115);
+  rect(-15, 60, 115, 115);
+  rect(10, 20, 115, 115);
+  rect(45, -10, 115, 115);
+  rect(100, -40, 125, 125);
+  rect(155, -38, 135, 135);
+  rect(190, -10, 135, 135);
+  rect(225, 10, 150, 150);
+  rect(280, 40, 160, 160);
+  rect(330, 80, 165, 165);
+  rect(370, 150, 170, 170);
   
-  for (let i = 0; i < 10; i += 1)
   
-  circle (100 + i * 20, 200, 10);
-  xValue += 5;
-  
+ 
 }

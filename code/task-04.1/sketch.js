@@ -3,7 +3,7 @@ let y = 0;
 let kommando = 20;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(400, 400, SVG);
   background(255);
 }
 
@@ -19,4 +19,5 @@ function draw() {
     x = 0;
     y = y + kommando;
   }
+  save("sketch.svg");
 }

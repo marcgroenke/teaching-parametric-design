@@ -27,7 +27,7 @@ const {
   colorNameToRgb
 } = jscad.colors;
 
-const size = 40;
+const size = 20;
 
 const main = () => {
   const cubeShape = cube({
@@ -41,7 +41,8 @@ const main = () => {
 
   const colorObject = colorize(
     colorNameToRgb("black"),
-    sphereShape,
+    sphereShape, 
+
   );
 
   const cubes = [];
